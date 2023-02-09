@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { DailiesComponent } from './dailies/dailies.component';
 import { WeekliesComponent } from './weeklies/weeklies.component';
 import { HorizontalComponent } from './horizontal/horizontal.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DailiesComponent,
     WeekliesComponent,
-    HorizontalComponent
+    HorizontalComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
